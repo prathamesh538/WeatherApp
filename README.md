@@ -1,4 +1,5 @@
 # WeatherApp - Java REST API Client
+
 *COMPANY*:CODTECH IT SOLUTIONS
 
 *NAME*:PRATHAMESH SANJAY PATHARE
@@ -40,4 +41,7 @@ This Java application retrieves and displays weather data from the OpenWeatherMa
 6.  **Compile and Run:** Compile and run the `WeatherApp.java` file using your IDE or command line.
 7.  **View Output:** The weather information will be displayed in the console.
 
-## Project Structure
+## output
+
+![image](https://github.com/user-attachments/assets/55566e7b-c9a5-489f-a544-2b625c16cbdb)
+
