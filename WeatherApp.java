@@ -10,9 +10,12 @@ import org.json.JSONArray;
 public class WeatherApp {
 
     private static final String API_KEY = "f847e2c370654ddf1ee9930d80c3b6cd"; // Replace with your API key
-    private static final String CITY = "Pune"; // Replace with the desired city
+  //  private static final String CITY = "Pune"; // Replace with the desired city
 
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the city name: ");
+        String 	CITY=sc.next();
         try {
             String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + CITY + "&appid=" + API_KEY + "&units=metric"; // Use metric units
 
